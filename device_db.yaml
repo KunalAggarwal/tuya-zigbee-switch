@@ -2796,7 +2796,39 @@ OUTLET_BSEED_PM_TS011F_1:
   build: yes
   status: in_progress
   info: Power monitoring not implemented
-  threads: https://github.com/romasku/tuya-zigbee-switch/issues/145
+  threads:
+  - https://github.com/romasku/tuya-zigbee-switch/issues/145
+  - https://github.com/romasku/tuya-zigbee-switch/pull/390
+  store:
+  - https://www.aliexpress.com/item/1005005714480181.html
+OUTLET_BSEED_PM_TS011F_2:
+  human_name: BSEED PM outlet 🅲
+  category: outlet
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS011F
+  stock_manufacturer_name: _TZ3000_4ux0ondb
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS011F_plug_1
+  override_z2m_device: TS011F_plug_1_2
+  tuya_module: ZTU
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: 4ux0ondb;TS011F-BS-PM-2;LB4;SB5u;RD2;IC3;M;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 47004
+  build: yes
+  status: in_progress
+  info: Power monitoring not implemented
+  threads: 
+  - https://github.com/romasku/tuya-zigbee-switch/issues/145
+  - https://github.com/romasku/tuya-zigbee-switch/pull/397
   store:
   - https://www.aliexpress.com/item/1005005714480181.html
 OUTLET_BSEED_TS011F:
@@ -2906,6 +2938,33 @@ REMOTE_HOBEIAN_TS0044:
   status: fully_supported
   info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/237
+  store: null
+REMOTE_HOBEIAN_BUTTON_TS0001:
+  human_name: HOBEIAN ZG-101ZL button
+  category: remote
+  power: CR2032
+  neutral: without
+  output: nothing
+  device_type: end_device
+  stock_model_name: ZG-101ZL
+  stock_manufacturer_name: HOBEIAN
+  stock_converter_manufacturer: Moes
+  stock_converter_model: ERS-10TZBVB-AA
+  override_z2m_device: ZG-101ZL
+  tuya_module: none
+  mcu_family: Telink
+  mcu: TLSR8258 # and TLSR8253F512AT32 variant
+  config_str: ZG-101ZL;TS0001-HB;IC4i;SC2u;BTB5;M;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 47002
+  build: yes
+  status: in_progress
+  info: 1MB variant working, 512KB not
+  threads: https://github.com/romasku/tuya-zigbee-switch/issues/399
   store: null
 REMOTE_IHSENO_TS0044:
   human_name: iHseno 4-button remote
@@ -3310,8 +3369,8 @@ REMOTE_TUYA_TS004F_2:
   tuya_module: none
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: ja5osu5g;TS004F-Loginovo;IC4i;SC2u;BTB5;M;
-  alt_config_str: null
+  config_str: ja5osu5g;TS004F-Loginovo;BB6u;SC2u;IC4i;BTB5;M;
+  alt_config_str: ja5osu5g;TS004F-Loginovo;BC2u;SB6u;IC4i;BTB5;M;
   old_manufacturer_names: null
   old_zb_models: null
   stock_manufacturer_id: null
@@ -3319,8 +3378,8 @@ REMOTE_TUYA_TS004F_2:
   firmware_image_type: 47002
   build: yes
   status: mostly_supported
-  info: Low power is implemented, but wasn't battle tested.
-  threads: null
+  info: Low power is implemented, but wasn't battle tested. Buttons swapped?
+  threads: https://github.com/romasku/tuya-zigbee-switch/issues/399
   store: https://www.aliexpress.com/item/1005006762476931.html
 REMOTE_TUYA_TS004F:
   human_name: Tuya 4-button wireless switch 🅱
