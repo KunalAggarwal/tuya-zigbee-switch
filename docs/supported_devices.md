@@ -41,6 +41,6 @@ Support new devices: [contribute/porting.md](/docs/contribute/porting.md)
 
 | 🚧 | 📦 | 💡 | ⚡️ | 📲 |  🏭  | Zb&nbsp;Manufacturer <br> Zb&nbsp;Model | Name <br> Z2M&nbsp;page&nbsp;🔗 | Store | Threads | Status |
 | -- | -- | -- | -- | -- | :--: | :-------------------------------------- | :------------------------------ | ----: | ------: | :----- |
-|  | ✔️ | 🇲 | 🔌 | 🛜 | **TL** | `_TZ3000_liygxtcq` <br> `TS0004` | [SB04-Zigbee 4-Gang Switch Module](https://www.zigbee2mqtt.io/devices/SB04-Zigbee.html) |   |   | Pinout from vendor datasheet, untested. Sold as RSH SB04-Zigbee. | 
+| 🟩 | ✔️ | 🇲 | 🔌 | 🛜 | **TL** | `_TZ3000_liygxtcq` <br> `TS0004` | [Tuya 4-gang](https://www.zigbee2mqtt.io/devices/SB04-Zigbee.html) |   | [`#398`](https://github.com/romasku/tuya-zigbee-switch/issues/398) | Supported | 
 
 Data from [`device_db.yaml`](/device_db.yaml)

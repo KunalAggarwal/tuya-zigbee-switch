@@ -360,7 +360,7 @@ const romasku = {
 const definitions = [
     {
         zigbeeModel: [
-            "TS0004-CUS",
+            "TS0004-SB",
         ],
         model: "SB04-Zigbee",
         vendor: "Tuya-custom",

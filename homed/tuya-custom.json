@@ -3,7 +3,7 @@
     {
       "description": "Custom switch (https://github.com/romasku/tuya-zigbee-switch)",
       "modelNames": [
-        "TS0004-CUS"
+        "TS0004-SB"
       ],
       "options": {
         "endpointName": {
@@ -20,7 +20,7 @@
     },
     {
       "modelNames": [
-        "TS0004-CUS"
+        "TS0004-SB"
       ],
       "exposes": [
         "multiPressResetCount",
@@ -56,7 +56,7 @@
     },
     {
       "modelNames": [
-        "TS0004-CUS"
+        "TS0004-SB"
       ],
       "properties": [
         "status",
@@ -95,7 +95,7 @@
     },
     {
       "modelNames": [
-        "TS0004-CUS"
+        "TS0004-SB"
       ],
       "exposes": [
         "pressAction",
