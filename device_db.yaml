@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./device_db.schema.json
 
-# ========== Device database ========== 
-# 
+# ========== Device database ==========
+#
 # Please refer to device_db_explained.md
-# 
+#
 # And use the schema for validation!
 #   (e.g. in VSCode with YAML extension)
-# 
+#
 # Rules:
 # - Follow the format
 # - Fill empty values with null
@@ -22,7 +22,7 @@ MODULE_TUYA_ZT3L_TS0004:
   device_type: router
   stock_model_name: TS0004
   stock_manufacturer_name: _TZ3000_liygxtcq
-  stock_converter_manufacturer: Tuya
+  stock_converter_manufacturer: SecureShadow
   stock_converter_model: TS0004_switch_module
   override_z2m_device: SB04-Zigbee
   tuya_module: ZT3L
@@ -35,6 +35,87 @@ MODULE_TUYA_ZT3L_TS0004:
   stock_manufacturer_id: 4417
   stock_image_type: 54179
   firmware_image_type: 47004
+  build: yes
+  status: fully_supported
+  info: Supported
+  threads: https://github.com/romasku/tuya-zigbee-switch/issues/398
+  store: null
+MODULE_TUYA_ZT3L_TS0003:
+  human_name: Tuya 3-gang
+  category: module
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0003
+  stock_manufacturer_name: _TZ3000_pf7swkqp
+  stock_converter_manufacturer: SecureShadow
+  stock_converter_model: TS0003_switch_module
+  override_z2m_device: SB03-Zigbee
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: pf7swkqp;TS0003-SB;LD7;BA0u;SC2u;RC0;SC3u;RB4;SD2u;RB5;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 47005
+  build: yes
+  status: fully_supported
+  info: Supported
+  threads: https://github.com/romasku/tuya-zigbee-switch/issues/398
+  store: null
+MODULE_TUYA_ZT3L_TS0002:
+  human_name: Tuya 2-gang
+  category: module
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0002
+  stock_manufacturer_name: _TZ3000_zbfya6h0
+  stock_converter_manufacturer: SecureShadow
+  stock_converter_model: TS0002_switch_module
+  override_z2m_device: SB02-Zigbee
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: zbfya6h0;TS0002-SB;LC0;BA0u;SB4u;RC2;SB5u;RC3;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 47006
+  build: yes
+  status: fully_supported
+  info: Supported
+  threads: https://github.com/romasku/tuya-zigbee-switch/issues/398
+  store: null
+MODULE_TUYA_ZT3L_TS0001:
+  human_name: Tuya 1-gang
+  category: module
+  power: mains
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS0001
+  stock_manufacturer_name: _TZ3000_khmapq4n
+  stock_converter_manufacturer: SecureShadow
+  stock_converter_model: TS0001_switch_module
+  override_z2m_device: SB01-Zigbee
+  tuya_module: ZT3L
+  mcu_family: Telink
+  mcu: TLSR8258
+  config_str: khmapq4n;TS0001-SB;LC0;BA0u;SB4u;RC2;
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 54179
+  firmware_image_type: 47007
   build: yes
   status: fully_supported
   info: Supported
